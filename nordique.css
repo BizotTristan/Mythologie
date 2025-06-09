@@ -1,0 +1,105 @@
+nav {
+    background-color: black;
+    color: white;
+    text-align: center; /*Pour centrer le texte*/
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav:hover {
+    background-color: #12578c;
+    color: white;
+  
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  body {
+    color: black;
+    background-color: rgb(7, 69, 105); /*Fond bleu foncé pour mieux voir le texte*/
+    margin: 0;
+    background-attachment: fixed;
+    background-size: 100%; /*Mettre la taille de l'arrire plan à 100% */
+  }
+  
+  .paragraphe p {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.692); /*Fond blanc avec une opacité de 70%  idée provenant de tchatgpt pour rendre le texte lisible*/
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 60px; /*Mettre la marge du côté gauche à 60px*/
+    margin-right: 40px; /*Mettre la marge du côté droit à 40px*/
+  }
+  ul{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.692); /*Fond blanc avec une opacité de 70%  idée provenant de tchatgpt pour rendre le texte lisible*/
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 60px; /*Mettre la marge du côté gauche à 60px*/
+    margin-right: 40px; /*Mettre la marge du côté droit à 40px*/
+  }
+
+  li {
+    color: #ffffff;
+
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 60px; /*Mettre la marge du côté gauche à 60px*/
+    margin-right: 40px; /*Mettre la marge du côté droit à 40px*/
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  
+  }
+  
+  h2 {
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  
+  }
+  
+  h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  }
+  
+  footer p {
+    color:  whitesmoke;
+    text-align: center; /*Pour centrer le texte*/
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 120px; /*Mettre la marge du côté gauche à 120px*/
+    margin-right: 120px; /*Mettre la marge du côté droit à 120px*/
+  }

@@ -1,0 +1,103 @@
+nav {
+    background-color: black;
+    color: white;
+    text-align: center; /*Pour centrer le texte*/
+    font-size: 10px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    display: flex;
+    justify-content: space-around;
+  }
+  nav:hover {
+    background-color: #12578c;
+    color: white;
+  
+  }
+
+  a{
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  body {
+    color: black;
+    background-color: rgb(7, 69, 105);
+    margin: 0;
+    background-size: 200%; /*Mettre la taille de l'arrire plan à 200% */
+    background-attachment: fixed;
+  }
+  
+  .paragraphe p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 1px; /*Espace entre le contenu et la bordure mis à 1px */
+    margin-left: 10px; /*Mettre la marge du côté gauche à 10px*/
+    margin-right: 10px; /*Mettre la marge du côté droit à 10px*/
+  }
+
+  ul{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.692); /*Fond blanc avec une opacité de 70%  idée provenant de tchatgpt pour rendre le texte lisible*/
+    font-size: 25px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 60px; /*Mettre la marge du côté gauche à 60px*/
+    margin-right: 40px; /*Mettre la marge du côté droit à 40px*/
+  }
+
+  li {
+    color: #ffffff;
+
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    padding: 10px; /*Espace entre le contenu et la bordure mis à 10px */
+    margin-left: 60px; /*Mettre la marge du côté gauche à 60px*/
+    margin-right: 40px; /*Mettre la marge du côté droit à 40px*/
+  }
+  
+  .images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2px;
+  }
+  
+  h1 {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  
+  }
+  
+  h2 {
+    color: cyan;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  
+  }
+  
+  
+  h3 {
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif; /*Utilisation de la police Times New Roman*/
+    font-weight: bold; /*Pour mettre le texte en gras*/
+    text-align: center; /*Pour centrer le texte*/
+  }
+  
+  footer p {
+    color: #000000;
+    margin-left: 5px; /*Mettre la marge du côté gauche à 5px*/
+    margin-right: 5px; /*Mettre la marge du côté droit à 5px*/
+    font-size: 10px;
+  }
